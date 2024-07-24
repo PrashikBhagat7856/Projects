@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM CLUB</title>
+    <link rel="icon" type="image/x-icon" href="GYM.png">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+           body {
+
+                  font-family: 'Baloo Bhai', cursive;
+                  color:  white;
+                  margin: 0px;
+                  padding: 0px;
+                  background: url('/5.jpg');
+                  height: 100%px;
+                  width: 100%;
+                  background-size: 100%;
+                  background-repeat: no-repeat;
+                  position: fixed;
+                }
+                
+        .left   {  
+                   font-family: 'Baloo Bhai', cursive;
+                   margin: auto;
+                   display: inline-block;
+                   position: absolute;
+                   top: 10px;
+                   left: 5px;
+                   padding-left: 18px;
+                   padding-top: 4px;
+                   border: solid 2px red;
+                }          
+
+    .left img   { 
+                  height: 60px;
+                  width: 100px;
+                  filter: invert(100%);
+                } 
+
+        .name   { 
+                  display: block;
+                  margin: 0px;
+                  text-align: center;
+                  font-size: 15px;
+                  font-family: 'Baloo Bhai', cursive;
+                }            
+ 
+        .mid    { 
+                  border: solid 2px gray; 
+                  display: block;
+                  width: 40%;
+                  margin: 20px auto;
+                } 
+                
+        .right  {
+                  border: solid 2px blue;
+                  display: inline-block;
+                  position: absolute;
+                  top: 20px;
+                  right: 10px;
+                } 
+
+         .btn   { 
+                  font-family: 'Baloo Bhai', cursive;
+                  height: 25px;
+                  width: 123px;
+                  margin: 5px;
+                  background-color: black;
+                  color: white;
+                  padding: 4px 10px;
+                  border-radius: 20px;
+                  font-size: 15px;
+                  cursor: pointer;
+                } 
+
+    .btn:hover  {
+                  background-color: rgb(31, 29, 29);
+                }        
+                
+       .navbar  {
+                  display: inline-block;
+                }         
+                
+      .navbar li{
+                  display: inline-block;
+                  font-size: 17px;
+                } 
+                
+   .navbar li a {
+                  color: white;
+                  text-decoration: none;
+                  padding: 0px 19px;
+                } 
+                
+.navbar li a:hover {
+                     color: gray;
+                     text-decoration: underline;
+                   } 
+
+      .contaner {
+                   border: solid 2px white;
+                   width: 33%;
+                   border-radius: 10px;
+                   padding: 20px;
+                   margin: 320px 840px;
+                }   
+       
+    .formgroup  {  
+                      display: inline-block;
+                      margin: 10px auto;
+                      height: 100px;
+                   }      
+                   
+          
+    </style>
+</head>
+<body>
+     <div class="header">
+     <header>
+         <!-- Left box for logo -->
+        <div class="left">
+        <img src="/GYM.png" alt="">
+        <div class="name">GYM CLUB</div>
+        </div>
+        
+
+        <!-- navbar -->
+        <div class="mid">
+              <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+        </div>
+         
+        <!-- right box for logo -->
+        <div class="right">
+             <button class="btn">Contact us</button>
+             <button class="btn">Email us</button>
+        </div>
+      </header>
+    </div>
+          
+      <div class="contaner">
+        <div>
+           <h1>Let's join now</h1>
+           <form action="noaction.php">
+            <div class="formgroup">
+              <input type="text" placeholder="Your name ">
+
+               <form action="noaction.php">
+                <div class="formgroup">
+                  <input type="text" placeholder="Your name ">
+
+                  <form action="noaction.php">
+                    <div class="formgroup">
+                      <input type="text" placeholder="Your name ">
+
+                      <form action="noaction.php">
+                        <div class="formgroup">
+                          <input type="text" placeholder="Your name ">
+              </div>
+            </form>
+         </div>
+      </div>
+   
+</body>
+</html>
