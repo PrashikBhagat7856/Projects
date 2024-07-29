@@ -33,7 +33,7 @@
                    left: 5px;
                    padding-left: 18px;
                    padding-top: 4px;
-                   border: solid 2px red;
+                   /* border: solid 2px red; */
                 }          
 
     .left img   { 
@@ -51,14 +51,14 @@
                 }            
  
         .mid    { 
-                  border: solid 2px gray; 
+                  /* border: solid 2px gray;  */
                   display: block;
                   width: 40%;
                   margin: 20px auto;
                 } 
                 
         .right  {
-                  border: solid 2px blue;
+                  /* border: solid 2px blue; */
                   display: inline-block;
                   position: absolute;
                   top: 20px;
@@ -86,7 +86,7 @@
                   display: inline-block;
                 }         
                 
-      .navbar li{
+    .navbar li  {
                   display: inline-block;
                   font-size: 17px;
                 } 
@@ -99,25 +99,67 @@
                 
 .navbar li a:hover {
                      color: red;
-                     text-decoration: underline;
+                     /* text-decoration: underline; */
                    } 
 
-      .contaner {
-                   border: solid 2px white;
-                   width: 33%;
-                   border-radius: 10px;
-                   padding: 20px;
-                   margin: 320px 840px;
-                }   
-       
-    .formgroup  {  
+    .formgroup     {  
                       display: inline-block;
                       margin: 10px auto;
                       height: 100px;
-                   }      
+                   }   
                    
-          
+          .box     { 
+                     /* border: solid 2px red; */
+                     margin-left: 100px;
+                     height: 250px;
+                     width: 365px;
+                     position: absolute;
+                     top: 400px;
+                     left: 900px;
+                   }  
+                   
+          .gym    { 
+                    text-align: center;
+                    color: red;
+                  }      
+                    
+           .form  {
+                    display: block;
+                    margin: 5px auto;
+                    padding-left: 28px;
+                  }  
+
+      .form input {
+                    font-family: 'Baloo Bhai', cursive;
+                    width: 250px;
+                  }       
+                
+    .form :hover  {
+                    border-color: yellow;
+                  }        
+                  
+          .button {
+                    color: white;
+                    padding: 8px 220px;
+                  } 
+
+  .button :hover  {
+                    background-color: green;
+                    color: blue;
+                    cursor: pointer;
+                    border: solid 2px red;
+                  }       
+                  
+           .sub   {
+                    color: red;
+                    border-radius: 10px;
+                    height: 30px;
+                    width: 70px;
+                    font-family: 'Baloo Bhai', cursive;
+                  }    
     </style>
+
+
 </head>
 <body>
      <div class="header">
@@ -146,29 +188,39 @@
         </div>
       </header>
     </div>
+       
+       <div class="box">
+        <h1 class="gym">JOIN GYM CLUB</h1>
+
+        <div class="form">
+
+          <div class="form">
+           <input type="text" placeholder="Name">
+          </div>
+
+          <div class="form">
+           <input type="text" placeholder="Blood Group">
+          </div>
+
+          <div class="form">
+           <input type="text" placeholder="Weight">
+          </div>
+
+          <div class="form">
+           <input type="text" placeholder="Height">
+          </div>
+
+          <div class="button">
+            <button class="sub">submit</button>
+          </div>
+      
+
+        </div>
+     </div>
           
-      <div class="contaner">
-        <div>
-           <h1>Let's join now</h1>
-           <form action="noaction.php">
-            <div class="formgroup">
-              <input type="text" placeholder="Your name ">
 
-               <form action="noaction.php">
-                <div class="formgroup">
-                  <input type="text" placeholder="Your name ">
-
-                  <form action="noaction.php">
-                    <div class="formgroup">
-                      <input type="text" placeholder="Your name ">
-
-                      <form action="noaction.php">
-                        <div class="formgroup">
-                          <input type="text" placeholder="Your name ">
-              </div>
-            </form>
-         </div>
-      </div>
+      
+        
    
 </body>
 </html>
